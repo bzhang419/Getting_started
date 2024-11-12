@@ -94,6 +94,13 @@ time spack install cgbd %intel@20.0.4.304
 
 (Note: if you see this error when installing new packages,  `Error: Package 'cray-mpich' not found.`, add `^mpich` )
 
+(Note1: To use the new version of spack, if you encounter this error:
+
+ ```==> Error: Name``` 
+ 
+It might be caused by two versions of spack caches conflicting with each other, You can simply rename (or delete) the original cache file in ```{Home directory}/.spack/cache```
+
+
 \####################################################################
 
 \# if you are in Pengfei Liu’s group at Gatech 
